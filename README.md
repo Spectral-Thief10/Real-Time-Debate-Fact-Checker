@@ -1,3 +1,7 @@
+# Contributors
+
+Cameron Rodgers, Elias Zheng, Ellie Bakonyi
+
 # BSNet
 
 Real-time fact-checking for live speech. Transcribes microphone audio, extracts
