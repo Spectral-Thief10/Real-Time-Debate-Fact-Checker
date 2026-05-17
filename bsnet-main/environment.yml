@@ -1,0 +1,23 @@
+name: bsnet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy
+      - transformers
+      - llama-cpp-python
+      - faster-whisper
+      - sentencepiece
+      - tiktoken
+      - webrtcvad-wheels
+      - pytest
+      - ddgs
+      - torch
+      - torchaudio
+      - bitsandbytes
+      - accelerate
+      - datasets
+      - pyaudio
