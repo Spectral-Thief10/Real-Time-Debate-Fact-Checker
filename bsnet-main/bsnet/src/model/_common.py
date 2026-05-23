@@ -20,10 +20,10 @@ from transformers import (
 
 # ── Default model identifiers ────────────────────────────────────────────────
 EXTRACTOR_MODEL = "bartowski/Qwen_Qwen3.5-0.8B-GGUF"
-EXTRACTOR_GGUF_FILE = "Qwen_Qwen3.5-0.8B-Q4_K_M.gguf"
+EXTRACTOR_GGUF_FILE = "*Q4_K_M.gguf"
 SCORER_MODEL = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 RENDERER_MODEL = "bartowski/Qwen_Qwen3.5-0.8B-GGUF"
-RENDERER_GGUF_FILE = "Qwen_Qwen3.5-0.8B-Q4_K_M.gguf"
+RENDERER_GGUF_FILE  = "*Q4_K_M.gguf"
 
 # ── Sampling parameters ──────────────────────────────────────────────────────
 # Two profiles: thinking mode (lower presence penalty, lets the model
